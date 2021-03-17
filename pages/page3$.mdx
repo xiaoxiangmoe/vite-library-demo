@@ -1,0 +1,35 @@
+---
+title: page3 title
+sort: 3
+---
+
+import { Box } from 'vite-library-demo';
+
+# Markdown: Syntax
+
+This is page3. This is a complicated [mdx](https://mdxjs.com/) page.
+
+## Use React Component
+
+<Box>This is box.</Box>
+
+## Test code block with syntax highlighing
+
+```tsx
+export function createTheme({ sideMenuData }: Option = {}): CreateTheme {
+  return pages => {
+    // theme can create menu from pages data
+    const actualMenuData = sideMenuData || defaultMenu(pages);
+    return {
+      loaded(pageData) {
+        const Component = pageData.default;
+        return (
+          <Layout sideMenuData={actualMenuData}>
+            <Component />
+          </Layout>
+        );
+      },
+    };
+  };
+}
+```

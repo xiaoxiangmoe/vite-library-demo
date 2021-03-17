@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.pages.json",
+  "compilerOptions": {
+    "types": ["cypress"]
+  },
+  "include": ["src/**/*.spec.tsx", "src/**/*.spec.ts"]
+}

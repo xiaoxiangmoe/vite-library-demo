@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "jsx": "react",
+    "types": ["vite/client", "node"],
+    "strict": true,
+    "moduleResolution": "Node",
+    "skipLibCheck": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUncheckedIndexedAccess": true,
+    "importsNotUsedAsValues": "error"
+  }
+}
