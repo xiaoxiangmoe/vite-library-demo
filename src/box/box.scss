@@ -1,0 +1,5 @@
+@import '../utils/_prefix.scss';
+
+.#{$prefix}box {
+  border: 1px solid red;
+}
